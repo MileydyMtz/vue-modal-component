@@ -92,10 +92,9 @@ La implementación de este componente se puede ver de la siguiente forma:
 
 ## Pruebas
 Las pruebas se han implementado utilizando la biblioteca vitest para correr las pruebas y @vue/test-utils para montar el componente. Además, se usa axios-mock-adapter para simular las respuestas de la API.
+
 A continuacion se muestran las pruebas implementadas:
 * **Renders title properly**: Esta prueba verifica que el título se está renderizando correctamente en el componente TheModal. Crea un wrapper para el componente con isOpen en true y un título de "Test Modal", luego verifica si ese título está contenido en el texto renderizado del componente.
-
 * **Is hidden when isOpen is false**: Esta prueba verifica que el componente TheModal está oculto cuando la propiedad isOpen es false. Crea un wrapper para el componente con isOpen en false y un título de "Test Modal", luego verifica que el componente no es visible.
-
 * **Emits close event on close method call**: Esta prueba verifica que el componente TheModal emite un evento close cuando se llama al método close. Crea un wrapper para el componente con isOpen en true y un título de "Test Modal", luego llama al método close en la instancia del componente y verifica que el evento close fue emitido.
 
