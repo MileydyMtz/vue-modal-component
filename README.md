@@ -91,7 +91,7 @@ La implementación de este componente se puede ver de la siguiente forma:
 
 
 ## Pruebas
-Las pruebas se han implementado utilizando la biblioteca vitest para correr las pruebas y @vue/test-utils para montar el componente. Además, se usa axios-mock-adapter para simular las respuestas de la API.
+Las pruebas se han implementado utilizando la biblioteca vitest para correr las pruebas y @vue/test-utils para montar el componente.
 
 A continuacion se muestran las pruebas implementadas:
 * **Renders title properly**: Esta prueba verifica que el título se está renderizando correctamente en el componente TheModal. Crea un wrapper para el componente con isOpen en true y un título de "Test Modal", luego verifica si ese título está contenido en el texto renderizado del componente.
